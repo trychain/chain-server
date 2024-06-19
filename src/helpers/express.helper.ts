@@ -87,10 +87,6 @@ export default class ExpressApplication {
 	}
 
 	static initRoutes(): void {
-		this.application.get("/session/info", (req: any, res: any) => {
-			res.send(req.session);
-		});
-
 		this.application.use("/auth", AuthenticationRoute);
 		this.application.use("/user", UserRoute);
 		this.application.use("/code", CodeRoute);

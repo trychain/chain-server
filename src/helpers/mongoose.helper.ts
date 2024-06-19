@@ -5,7 +5,7 @@ mongoose.set("strictQuery", true);
 export default class Database {
 	static connect() {
 		mongoose
-			.connect(<string>process.env.DATABASE)
+			.connect(<string>process.env.DATABASE_URI)
 			.then(function () {
 				console.log("database connected successfully");
 			})
