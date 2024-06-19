@@ -14,14 +14,7 @@ export class CodePayload {
 		secret: joi
 			.string()
 			.max(255)
-			.required()
-			.custom((value, helper) => {
-				if (!validator.isBase32(value)) {
-					return helper.message("secret must be base32 encoded" as any);
-				}
-
-				return true;
-			}),
+			.required(),
 		algorithm: joi
 			.string()
 			.valid(
