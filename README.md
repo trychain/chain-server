@@ -1,11 +1,11 @@
 <h1 align="center">
-    roblox-fps-unlocker
+    chain-server
 </h1>
-<p align="center">lightweight & fast</p>
+<p align="center">google authenticator alternative</p>
 
 <h2>Description</h2>
 <p>
-roblox-fps-unlocker is <strong>lightweight & fast</strong> tool, it's built by node.js built-in packages and it's use to unlock framerate per second(fps) limitation in roblox
+chain is <strong>google authenticator alternative</strong>, in this repository you can find the backend server of desktop application, you can through our api save the codes and sync it between multiple devices
 </p>
 
 <h2>Features</h2>
