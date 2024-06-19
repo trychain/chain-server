@@ -11,10 +11,3 @@ declare global {
 		}
 	}
 }
-
-declare module "express-session" {
-	export interface SessionData {
-		initialized?: boolean;
-		user?: string;
-	}
-}
